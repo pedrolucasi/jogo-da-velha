@@ -7,7 +7,7 @@ PORTA = 5000        # Porta do servidor
 jogos_ativos = []   # Lista para armazenar os jogos ativos
 lock = threading.Lock()  # Lock para garantir sincronização entre threads
 
-# Função para verificar se há um vencedor
+# Função para verificar se há um vencedo
 def check_vencedor(tabuleiro):
     jogadas = [
         [0, 1, 2], [3, 4, 5], [6, 7, 8],  # Linhas
