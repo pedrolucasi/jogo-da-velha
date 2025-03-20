@@ -52,7 +52,7 @@ def iniciar_servidor():
             except Exception as e:
                 print(f"Erro no servidor: {e}")
                 break
-        print("Servidor encerrado")
+        print("Servidor encerrado.")
 
 if __name__ == "__main__":
     iniciar_servidor()
